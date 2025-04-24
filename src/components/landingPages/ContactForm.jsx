@@ -76,7 +76,7 @@ const ContactForm = () => {
           <SubHeading heading="Contact Us" />
           <h2
             data-aos="fade-up"
-            className="heading-2 max-w-[60rem] mx-auto font-light text-center"
+            className="heading-2 max-w-[60rem] mx-auto font-light text-center !text-white"
           >
             Connect With Us Today!
           </h2>
@@ -84,7 +84,7 @@ const ContactForm = () => {
         <form
           onSubmit={handleSubmit(handleFormSubmit)}
           data-aos="fade-up"
-          className="flex flex-col max-w-xl mx-auto gap-4 mt-5"
+          className="flex flex-col max-w-xl mx-auto gap-4 mt-5 text-white"
         >
           <div className="flex flex-col gap-1">
             <input

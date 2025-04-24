@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import bannerImg from "../assets/images/banner.webp";
+import bannerImg from "../assets/images/banner.jpg";
 import SubHeading from "../components/SubHeading";
 import { appDevelopmentServices, webDevelopmentServices } from "../constant";
 import TrustWorthySection from "../components/TrustWorthySection";
@@ -36,7 +36,7 @@ const LandingPage = ({ page }) => {
     <>
       <LandingHeader />
       <section id="banner" className="h-screen relative text-white">
-        <div className="absolute top-0 w-full h-full bg-secondary/90"></div>
+        <div className="absolute top-0 w-full h-full bg-black/40"></div>
         <img
           loading="lazy"
           src={bannerImg}
@@ -59,12 +59,12 @@ const LandingPage = ({ page }) => {
               ? "Crafting High-Performance Websites that Drive Results"
               : "Innovation-Driven App Development Services"}
           </h1>
-          <p className="sub-heading">
+          <p className="sub-heading !text-white">
             AI Meets Integrity - Empowering Innovation with Intelligence
           </p>
         </div>
       </section>
-      <section id="about" className="text-white wrapper pt-[3rem]">
+      <section id="about" className="text-black wrapper pt-[3rem]">
         <div className="grid lg:grid-cols-2 gap-10 mt-7">
           <div data-aos="fade-up" className="hidden lg:block h-full">
             <img
@@ -138,7 +138,7 @@ const LandingPage = ({ page }) => {
               <img
                 loading="lazy"
                 src={service.icon}
-                className="h-[3.5rem] md:h-[4.5rem] object-contain"
+                className="h-[3.5rem] md:h-[4.5rem] object-contain brightness-0"
                 alt={service.title}
                 width="100"
                 height="100"

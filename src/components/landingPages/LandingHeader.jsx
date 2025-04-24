@@ -33,7 +33,7 @@ const LandingHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-secondary/60 backdrop-blur-md z-50 text-white">
+    <div className="py-4 fixed top-0 w-full bg-white/60 backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
           <Helmet>
@@ -102,7 +102,7 @@ const LandingHeader = () => {
               <Link
                 onClick={() => setIsOpen(false)}
                 key={id}
-                className="text-3xl text-white font-medium transition-colors duration-300 link"
+                className="text-3xl !text-white font-medium transition-colors duration-300 link"
                 to={path}
                 spy={true}
                 smooth={true}

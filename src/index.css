@@ -20,7 +20,7 @@ html {
 
 .text-stroke {
   color: transparent;
-  -webkit-text-stroke: 1px #dfa1f2;
+  -webkit-text-stroke: 1px #e9dded;
 }
 
 ::-webkit-scrollbar {

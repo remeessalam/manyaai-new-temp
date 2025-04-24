@@ -51,10 +51,10 @@ const LandingFooter = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-2 text-white">
+        <div className="flex flex-col gap-2 text-black">
           <h6 className="font-semibold">Contact Us</h6>
           <ul className="flex flex-col gap-3 mt-1">
-            <li className="max-w-[22rem] flex gap-3 text-white/70">
+            <li className="max-w-[22rem] flex gap-3 text-black/70">
               <MapPin
                 strokeWidth={1.5}
                 size={20}
@@ -62,11 +62,11 @@ const LandingFooter = () => {
               />{" "}
               <span className="text-sm">{companyDetails.address}</span>
             </li>
-            <li className="flex gap-3 text-white/70">
+            <li className="flex gap-3 text-black/70">
               <Link
                 aria-label="Contact us on email"
                 to={`mailto:${companyDetails.email}`}
-                className="flex gap-3 text-white/70 hover:text-primary transition-colors duration-200"
+                className="flex gap-3 text-black/70 hover:text-primary transition-colors duration-200"
               >
                 <Mail
                   strokeWidth={1.5}
@@ -80,7 +80,7 @@ const LandingFooter = () => {
               <Link
                 aria-label="Contact us on phone"
                 to={`tel:${companyDetails.phone}`}
-                className="flex gap-3 text-white/70 hover:text-primary transition-colors duration-200"
+                className="flex gap-3 text-black/70 hover:text-primary transition-colors duration-200"
               >
                 <Phone
                   strokeWidth={1.5}
